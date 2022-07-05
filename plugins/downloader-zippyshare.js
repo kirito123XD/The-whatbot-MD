@@ -1,13 +1,13 @@
 let handler = async (m, { conn, command, text, isPrems, isOwner }) => {
-  if (!text) throw 'Uhm...urlnya mana?'
+  if (!text) throw 'uff. que esta buscado?'
   try {
   apii = global.API('lolhuman', '/api/zippyshare', { url: text }, 'apikey')
   apis = await require('axios').get(apii)
-  m.reply('Sabar Uhm, Lagi Download...')
+  m.reply('espere, de nuevo descargado...')
   m.reply('Nama File : '+ apis.data.result.name_file)
   buffer = await getBuffer(apis.data.result.download_url)
   let { ext, mime } = await require('file-type').fromBuffer(buffer)
-  m.reply('Sabar Uhm, Lagi Upload...')
+  m.reply('esoere mas subidos ...')
   conn.sendMessage(m.chat, buffer, 'documentMessage', { mimetype: mime, filename: apis.data.result.name_file, quoted:m })
   } catch {
   throw 'Error!'

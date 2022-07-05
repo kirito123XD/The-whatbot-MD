@@ -1,6 +1,5 @@
 /**
- * TOLONG JANGAN GANTI GAMBARNYA,NOMORKU DAN SAWERIAKU
- * MENDING KALIAN TAMBAHIN NOMOR KALIAN
+estos sos los grupos de bot y también grupos de amistades donde esta el bot
 */
 
 const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')

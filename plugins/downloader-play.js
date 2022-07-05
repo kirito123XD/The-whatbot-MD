@@ -21,7 +21,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
       usedServer = server
       break
     } catch (e) {
-      m.reply(`Server ${server} error!${servers.length >= i + 1 ? '' : '\nmencoba server lain...'}`)
+      m.reply(`Server ${server} error!${servers.length >= i + 1 ? '' : '\nerro intentando de nuevo el otros servidores...'}`)
     }
   }
   if (yt === false) throw '𝚃𝙾𝙳𝙾𝚂 𝙻𝙾𝚂 𝚂𝙴𝚁𝚅𝙸𝙳𝙾𝚁𝙴𝚂 𝙵𝙰𝙻𝙻𝙰𝚁𝙽'

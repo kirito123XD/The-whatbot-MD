@@ -1,12 +1,12 @@
 let fetch = require('node-fetch')
 let handler = async (m, { text }) => {
-    if (!text) throw `Uhm.. Teksnya mana?`
+    if (!text) throw `Uff. que esta buscado?`
     let res = await fetch(`https://x-restapi.herokuapp.com/api/arti-kata?q=${text}&apikey=BETA`)
     if (!res.ok) throw await res.text()
     let json = await res.json()
     if (!json.status) throw json
     m.reply(`
-*Pencarian: ${text}*
+*busquera: ${text}*
 ${json.artikata}
 
 `.trim())

@@ -2,8 +2,8 @@ const { igdl } = require('../lib/scrape')
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
-  if (!args[0]) throw `Pengunaan:\n${usedPrefix + command} <url>\n\nContoh:\n${usedPrefix + command} https://www.instagram.com/p/CQU21b0JKwq/`
-  if (!args[0].match(/https:\/\/www.instagram.com\/.*(p|reel|tv)/gi)) throw `url salah, perintah ini untuk mengunduh post/reel/tv`
+  if (!args[0]) throw `ejemplo:\n${usedPrefix + command} <url>\n\nContoh:\n${usedPrefix + command} https://www.instagram.com/p/CQU21b0JKwq/`
+  if (!args[0].match(/https:\/\/www.instagram.com\/.*(p|reel|tv)/gi)) throw `url incorrecto, este comando puede descargar poost/tv`
 
   igdl(args[0]).then(async res => {
     let igdl = JSON.stringify(res)

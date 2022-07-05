@@ -8,7 +8,7 @@ let handler = async (m, { conn }) => {
     let uptime = clockString(_uptime)
 let duit = `*╭───── 「 𝐄𝐒𝐓𝐀𝐃𝐎 」 ──────*
 │➦ 𝚃𝚒𝚎𝚖𝚙𝚘 𝚊𝚌𝚝𝚒𝚟𝚘 : ${uptime}
-│➦ 𝙼𝚘𝚍𝚘 : ${global.opts['self'] ? 'Self' : 'publik'}
+│➦ 𝙼𝚘𝚍𝚘 : ${global.opts['self'] ? 'privado' : 'publico'}
 │➦ ${Object.keys(global.db.data.users).length} 𝚄𝚜𝚞𝚊𝚛𝚒𝚘𝚜
 │➦ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} 𝙲𝚑𝚊𝚝𝚜 𝙱𝚊𝚗𝚎𝚊𝚍𝚘𝚜 
 │➦ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} 𝚄𝚜𝚞𝚊𝚛𝚒𝚘𝚜 𝙱𝚊𝚗𝚎𝚊𝚍𝚘𝚜 
@@ -23,7 +23,7 @@ let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/fil
            hydratedButtons: [{
              urlButton: {
                displayText: 'GITHUB',
-               url: ''
+               url: 'https://github.com/Rebelde21/The-whatbot-MD'
              }
 
            },

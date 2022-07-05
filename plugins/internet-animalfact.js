@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text)
     throw `
 *${usedPrefix}${command} <nama hewan>*
-contoh:
+ejemplo:
 *${usedPrefix}${command} <dog>*\n
 ┌〔 Opsi 〕
 ├ dog

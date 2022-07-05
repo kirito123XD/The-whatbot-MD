@@ -9,11 +9,10 @@ let handler = async (m, {conn}) => {
         year: 'numeric'
     })
 let anu = `${ucapan()}
-Halo👋
-Ada Yang Bisa Saya Bantu?
-Ketik .menu Untuk Memulai Bot
+Hola👋
+puedo ayudarte escribí .menu para comenzar
 
-Runtime: ${uptime}`
+tiempo activo: ${uptime}`
    const ftroli = {
     key : {
     remoteJid: '6283136505591-1614953337@g.us',
