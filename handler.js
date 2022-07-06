@@ -706,8 +706,8 @@ module.exports = {
                             pp = await this.profilePictureUrl(user, 'image')
                         } catch (e) {
                         } finally {
-                            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'se unió, al grupo').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
-                                (chat.sBye || this.bye || conn.bye || 'Se, fue1'))
+                            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!') 'se unió, al grupo').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
+                                ((chat.sBye || this.bye || conn.bye || 'bye, @user!')).replace('@user', '@' + user.split('@')[0])
                                 this.sendButtonImg(id, pp, text, "Grupos", "xd", "menu", null)
                                 }
                     }
