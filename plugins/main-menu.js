@@ -286,9 +286,11 @@ let menuu = `╭─「 𝐒𝐔𝐏𝐄𝐑𝐁𝐎𝐓 - 𝐌𝐃 」
 ║
 ║❥𝙿𝚛𝚎𝚖𝚒𝚞𝚖: ${global.prem ? '✓' : '✘'}
 ║
-║❥𝙱𝚊𝚗𝚎𝚊𝚍𝚘: ✘
+║❥𝙱𝚊𝚗𝚎𝚊𝚍𝚘: ✘ 
 ║
 ║❥𝙶𝚛𝚞𝚙𝚘: https://chat.whatsapp.com/CFSvSOGCnuL3vk4Js1DWI2
+║
+║❥𝚚𝚞𝚒𝚎𝚛𝚎 𝚝𝚎𝚗𝚎𝚛 𝚞𝚗 𝚋𝚘𝚝 𝚊𝚌𝚝𝚒𝚟𝚘 24/7: http://portal.acidicnodes.com
 ║
 ║❥𝚃𝚒𝚎𝚖𝚙𝚘 𝙰𝚌𝚝𝚒𝚟𝚘: ${uptime}
 ║
