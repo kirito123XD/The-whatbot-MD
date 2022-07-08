@@ -4,6 +4,10 @@ The whatbot-MD todavía no está terminado bot el desarrollo✨
 <a href="http://wa.me/56977774748" target="blank"><img src="https://img.shields.io/badge/creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 <a href="http://wa.me/51935116539" target="blank"><img src="https://img.shields.io/badge/creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
+Quieres tener un bot 24/7 activo
+
+###  ```pagina``` [`acidicnodes`](http://portal.acidicnodes.com)
+
 
 <p align="center">
 <img src="https://telegra.ph/file/fed1c9d94b37511e570d5.mp4" alt="" width="500"/>
