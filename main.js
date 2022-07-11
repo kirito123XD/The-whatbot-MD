@@ -5,7 +5,6 @@ const {
 } = require('@adiwajshing/baileys')
 const WebSocket = require('ws')
 const path = require('path')
-
 const fs = require('fs')
 const yargs = require('yargs/yargs')
 const cp = require('child_process')
@@ -13,8 +12,7 @@ const _ = require('lodash')
 const syntaxerror = require('syntax-error')
 const P = require('pino')
 const os = require('os')
-const chalk = require('chalk')
-let simple = require('./lib/simple')
+let simple = require('./lib/simple') 
 var low
 try {
   low = require('lowdb')
@@ -65,7 +63,7 @@ loadDatabase()
 // if (opts['cluster']) {
 //   require('./lib/cluster').Cluster()
 // }
-global.authFile = `${opts._[0] || 'session'}.data.json`
+global.authFile = `${opts._[0] || 'multiverse'}.data.json`
 global.isInit = !fs.existsSync(authFile)
 const { state, saveState } = useSingleFileAuthState(global.authFile)
 
@@ -93,21 +91,6 @@ async function connectionUpdate(update) {
   }
   if (global.db.data == null) await loadDatabase()
   console.log(JSON.stringify(update, null, 4))
-  }
-  async function connectionUpdate(update) {
-let pp = './src/nuevobot.jpg'
-const { connection, lastDisconnect, isNewLogin } = update
-if (isNewLogin) conn.isInit = true
-const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode
-if (code && code !== DisconnectReason.loggedOut && conn?.ws.readyState !== CONNECTING) {
-console.log(await global.reloadHandler(true).catch(console.error))
-global.timestamp.connect = new Date
-}
-
-  if (connection == 'open') {
-    console.log(chalk.yellow('▣─────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣─────────────────────────────···'))
-     await conn.sendHydrated(`56977774748@s.whatsapp.net`, `𝙷𝙾𝙻𝙰 rebelde, 𝚂𝙴 𝙳𝙴𝚃𝙴𝙲𝚃𝙾 𝚀𝚄𝙴 𝙴𝚂𝚃𝙴 𝙽𝚄𝙼𝙴𝚁𝙾 𝙴𝚂 𝚄𝙽 𝙽𝚄𝙴𝚅𝙾 𝙱𝙾𝚃 𝙰𝙲𝚃𝙸𝚅𝙾 ✅`, author, pp, null, null, null, null, [['🌹 𝙾𝚆𝙽𝙴𝚁 🌹', '/owner'], ['👾 𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻 👾', '#menu']])
-    await conn.groupAcceptInvite('CFSvSOGCnuL3vk4Js1DWI2')}
 }
 
 
