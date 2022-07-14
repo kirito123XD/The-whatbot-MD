@@ -54,6 +54,10 @@ Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was sa
 ```cmd
 > ffmpeg -version
 ```
+## `EDITOR Y PORPIETARIO DEL BOT` 
+[![BrunoSobrino](https://avatars.githubusercontent.com/u/90165013?s=400&u=946f5c00c527c7e6fa2ef5148c6ad56270bb600e&v=4size=100)](https://github.com/BrunoSobrino/) 
+
+`The whatbot - MD __________ By rebelde`
 
 # agracimiento 
  [![Nurutomo](https://github.com/Nurutomo.png?size=150)](https://github.com/Nurutomo) | [![Ilman](https://github.com/ilmanhdyt.png?size=150)](https://github.com/ilmanhdyt) | [![Istikmal](https://github.com/BochilGaming.png?size=150)](https://github.com/BochilGaming)
@@ -61,5 +65,4 @@ Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was sa
 [Nurutomo](https://github.com/Nurutomo) | [Ilman](https://github.com/ilmanhdyt) | [Istikmal](https://github.com/BochilGaming)
  Author | yg nambah fitur | yg punya sc
 
-## Donar
-- [Saweria](https://saweria.co/ilmanhdyt)
+
