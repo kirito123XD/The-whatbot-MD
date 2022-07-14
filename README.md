@@ -55,7 +55,7 @@ Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was sa
 > ffmpeg -version
 ```
 ## `EDITOR Y PORPIETARIO DEL BOT` 
-[![elrebelde](https://avatars.githubusercontent.com/u/90165013?s=400&u=946f5c00c527c7e6fa2ef5148c6ad56270bb600e&v=4size=100)](https://github.com/elrebelde21/) 
+[![elrebelde](https://github.com/elrebelde21)](https://github.com/elrebelde21/) 
 
 `The whatbot - MD __________ By rebelde`
 
